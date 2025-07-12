@@ -287,6 +287,13 @@ export default function ProfilePage() {
               </div>
             </DialogContent>
           </Dialog>
+
+          {/* Add Listing Button */}
+          <Link href="/listing/new">
+            <Button className="bg-blue-600 hover:bg-blue-700">
+              + Add Listing
+            </Button>
+          </Link>
         </div>
 
         {/* Tabs */}
